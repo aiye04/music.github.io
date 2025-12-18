@@ -129,6 +129,7 @@ function togglePlay() {
     isPlaying ? pauseSong() : playSong();
 }
 
+
 function performPlay() {
     audio.play()
         .then(() => {
@@ -304,16 +305,16 @@ function updateSongList() {
 }
 
 // 设置音频可视化
-// function playSong() {
-//     audio.play()
-//         .then(() => {
-//             isPlaying = true;
-//             playBtn.classList.add('pause');
-//             playBtn.querySelector('i').className = 'fas fa-pause';
-//             recordImg.classList.add('playing');
-//             recordArm.classList.add('playing');
-//         })
-// }
+function playSong() {
+    audio.play()
+        .then(() => {
+            isPlaying = true;
+            playBtn.classList.add('pause');
+            playBtn.querySelector('i').className = 'fas fa-pause';
+            recordImg.classList.add('playing');
+            recordArm.classList.add('playing');
+        })
+}
 // 创建背景粒子
 function createParticles() {
     const particlesBg = document.getElementById('particles-bg');
