@@ -196,5 +196,5 @@ php -S localhost:8000
 
 ## 🙏 致谢
 
-- 字体：[SmileySans 得意黑](https://github.com/atelier-anchor/smileySans)
+- 字体：[SmileySans 得意黑](https://github.com/atelier-anchor/smiley-sans)
 - 设计灵感：各开源音乐播放器项目
